@@ -4,7 +4,7 @@ this is  dedicated micro service built in Cobol to perform business transactions
 
 This repository contains examples of CRUD (Create, Read, Update, Delete) operations using COBOL with a DB2 database. COBOL is a legacy programming language widely used in business applications, particularly in the banking and finance sectors. These examples demonstrate how to perform basic database operations in COBOL.
 
-Prerequisites
+## Prerequisites
 Before running these examples, ensure you have the following installed:
 
 COBOL compiler (e.g., IBM COBOL, GnuCOBOL)
@@ -16,7 +16,7 @@ ReadRecord.cob: Example COBOL program to read (select) a record from the databas
 UpdateRecord.cob: Example COBOL program to update an existing record in the database.
 DeleteRecord.cob: Example COBOL program to delete a record from the database.
 data_definitions.cpy: Example COBOL copybook containing reusable data definitions.
-Usage
+## Usage
 1. Setup the Environment
 Ensure your environment is set up with access to the COBOL compiler and DB2 database. Set your DB2 credentials in the programs where indicated.
 
